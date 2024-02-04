@@ -255,12 +255,13 @@ public class ControlActivity extends AppCompatActivity {
                     resultString += "R(ug/mL)\n\n";
 
                     for (TableAnalyzes item: resultAnalyze.tableAnalyzes) {
-                        resultString += "     " + (item.absorbanceAt663nm)
-                                + "     " + (item.absorbanceAt647nm)
-                                + "     " + (item.absorbanceAt470nm)
-                                + "     " + (item.ca)
-                                + "     " + (item.cb)
-                                + "     " + (item.r)
+                        resultString += "    " + (item.absorbanceAt663nm)
+                                + "    " + (item.absorbanceAt647nm)
+                                + "    " + (item.absorbanceAt470nm)
+                                + "    " + (item.ca)
+                                + "    " + (item.cb)
+                                + "    " + (item.ct)
+                                + "    " + (item.r)
                                 + "\n\n";
                     }
 
