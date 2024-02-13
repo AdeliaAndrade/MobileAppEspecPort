@@ -242,7 +242,7 @@ public class ControlActivity extends AppCompatActivity {
                     resultString += "Qtd Caratenóides: " + (resultAnalyze.amountOfCarotenoids) + "\n\n";
                     resultString += "Desvio Padrão: " + (resultAnalyze.standardDeviation) + "\n\n";
                     resultString += "Ratio: " + (resultAnalyze.ratio) + "\n\n";
-                    resultString += "Nível de Maturação: " + (resultAnalyze.maturationLevel == 0 ? "Fruta Verde" : (resultAnalyze.maturationLevel == 1 ? "Fruta Madura" : "Fruta Passada")) + "\n\n";
+                    resultString += "Nível de Maturação: " + (resultAnalyze.maturationLevel == 0 ? "Fruta Verde" : (resultAnalyze.maturationLevel == 1 ? "Fruta Madura" : (resultAnalyze.maturationLevel == 2 ? "Fruta Passada" : "Fruta De Vez"))) + "\n\n";
 
                     resultString += "\n\n\nTabela de resultado\n\n\n";
 
